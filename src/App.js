@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import 'bulma/css/bulma.min.css';
 import './App.css';
 
+import Header from './components/Header';
+
+import Rebounds from './pages/Rebounds';
+import Points from './pages/Points';
+
+import stats from './stats.json';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   return (
+      <>
+         <BrowserRouter>
+            <Header />
+            <div className="container mt-2" style={{ marginTop: 40 }}>
+               <Routes>
+                  <Route path="/" element={<Rebounds stats={stats} />} />
+                  <Route path="/points" element={<Points stats={stats} />} />
+               </Routes>
+            </div>
+         </BrowserRouter>
+      </>
+   );
 }
 
 export default App;

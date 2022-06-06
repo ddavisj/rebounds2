@@ -1,0 +1,56 @@
+{
+  "111": {
+    "id": 111,
+    "firstName": "Barbara",
+    "lastName": "Meade",
+    "played": 10,
+    "points": 200,
+    "rebounds": 80,
+    "assists": 92
+  },
+  "222": {
+    "id": 222,
+    "firstName": "Erica",
+    "lastName": "Harris",
+    "played": 10,
+    "points": 220,
+    "rebounds": 70,
+    "assists": 55
+  },
+  "333": {
+    "id": 333,
+    "firstName": "Edward",
+    "lastName": "Shaw",
+    "played": 10,
+    "points": 190,
+    "rebounds": 111,
+    "assists": 61
+  },
+  "444": {
+    "id": 444,
+    "firstName": "Noreen",
+    "lastName": "Aoki",
+    "played": 9,
+    "points": 310,
+    "rebounds": 88,
+    "assists": 33
+  },
+  "555": {
+    "id": 555,
+    "firstName": "Lucile",
+    "lastName": "Brittingham",
+    "played": 9,
+    "points": 222,
+    "rebounds": 88,
+    "assists": 44
+  },
+  "666": {
+    "id": 666,
+    "firstName": "Christopher",
+    "lastName": "Davidson",
+    "played": 10,
+    "points": 123,
+    "rebounds": 99,
+    "assists": 33
+  }
+}
