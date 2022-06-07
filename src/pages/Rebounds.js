@@ -4,8 +4,8 @@ const Rebounds = ({ stats }) => {
    const tableHeading = (
       <tr>
          <th>ID</th>
-         <th>First</th>
-         <th>Last</th>
+         <th style={{ paddingRight: '64px' }}>First</th>
+         <th style={{ paddingRight: '64px' }}>Last</th>
          <th>Played</th>
          <th>Ave. Rebounds</th>
          <th>Ave. Assists</th>

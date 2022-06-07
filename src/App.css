@@ -6,3 +6,7 @@ table th {
 .navbar-item.active {
    font-weight: bold;
 }
+
+th {
+   font-size: small !important;
+}
